@@ -4,4 +4,4 @@
 
 ## CI/CD Status
 
-![Deploy](https://siven124343.github.io/AURORA-YOGA/)
+![Deploy]( https://siven124343.github.io/AURORA-YOGA/)
