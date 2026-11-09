@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>AURORA YOGA — студия йоги и wellness</title>
+<title>AURORA YOGA — ОБНОВЛЕНО ЧЕРЕЗ CI/CD </title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,8 +29,8 @@
 <section class="hero">
   <div class="hero-content">
     <h1>AURORA <span>YOGA</span></h1>
-    <p>ОБНОВЛЕНО ЧЕРЕЗ CI/CD</p>
-    <a href="#form" class="btn btn-primary">ОБНОВЛЕНО ЧЕРЕЗ CI/CD</a>
+    <p>Пространство гармонии, дыхания и внутреннего света. Йога, медитация и wellness в самом сердце Санкт-Петербурга.</p>
+    <a href="#form" class="btn btn-primary">Записаться на пробное занятие</a>
   </div>
 </section>
 
@@ -86,7 +86,8 @@
     <h2>Достижения и <span>отзывы</span></h2>
     <p>Сертификаты инструкторов и слова наших учеников.</p>
   </div>
-  <div class="grid-2" style="margin-bottom:2.5rem">
+  <div class="grid-2"
+    style="margin-bottom:2.5rem">
     <div class="card">
       <h3>Сертификаты и заслуги</h3>
       <div class="badge-grid">
@@ -189,7 +190,7 @@
 
 <!-- ============ BONUS ============ -->
 <section id="bonus" class="section">
-  <div class="section-header">
+<div class="section-header">
     <h2>Бонусная <span>программа</span></h2>
     <p>Начните свой путь с пробного занятия или выберите удобный формат.</p>
   </div>
@@ -290,7 +291,8 @@
 <!-- ============ CONTACTS ============ -->
 <section id="contacts" class="section">
   <div class="section-header">
-    <h2>Контакты и <span>локации</span></h2>
+    <h2>Контакты и
+<span>локации</span></h2>
     <p>Мы работаем для вас каждый день.</p>
   </div>
   <div class="grid-2">
@@ -343,7 +345,7 @@
 <!-- ============ SCRIPT ============ -->
 <script>
 /* ============================================================
-   МАСКА ТЕЛЕФОНА +7 (___) ___-__-__
+   МАСКА ТЕЛЕФОНА +7 (___) _-__-
    ============================================================ */
 function maskPhone(value){
   let digits = value.replace(/\D/g,'');
@@ -403,7 +405,8 @@ form.addEventListener('submit', (e) => {
 
   // Телефон — проверяем кол-во цифр
   const digits = phoneInput.value.replace(/\D/g,'');
-  if (digits.length !== 11){
+  if (digits.length
+!== 11){
     setError(phoneInput, 'Введите номер полностью: +7 (XXX) XXX-XX-XX');
     valid = false;
   }
