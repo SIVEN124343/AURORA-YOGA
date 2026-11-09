@@ -4,4 +4,4 @@
 
 ## CI/CD Status
 
-![Deploy](https://siven124343.github.io/AURORA-YOGA/)
+![Deploy](https://github.com/siven124343/AURORA-YOGA/actions/workflows/deploy.yml/badge.svg)
